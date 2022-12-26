@@ -1,0 +1,13 @@
+import { ArgsTable, Meta, Story, Canvas } from '@storybook/blocks';
+import MyComponent from './MyComponent.vue';
+import * as MyComponentStories from './MyComponent.stories';
+
+<Meta of={MyComponentStories} />
+
+### Playground
+
+<Canvas>
+  <Story of={MyComponentStories.Playground} />
+</Canvas>
+
+<ArgsTable story="Playground" />
