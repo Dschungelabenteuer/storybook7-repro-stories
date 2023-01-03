@@ -1,5 +1,5 @@
 {
-  "name": "@repro-stories/case2",
+  "name": "@repro-stories/mdx-const-export",
   "private": true,
   "version": "0.0.0",
   "type": "module",
